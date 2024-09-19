@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HISTORY EXPLORE</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="loading-screen">
+      <div class="spinner"></div>
+    </div>
+
+    <div id="blocker">
+      <div id="instructions">
+        <p style="font-size: 36px">Click to Move</p>
+        <p>
+          Move: WASD<br />
+          <br />
+          Full Screen: F<br /><br />
+          Look: MOUSE <br /><br />
+          Space: pause (Autonomus movement)
+        </p>
+        <div class="btn-container">
+          <button class="btn" id="manual-btn">Manual Movement</button>
+          <button class="btn" id="autonomus-btn">Autonomus movement</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="room-info" style="display: none"></div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
