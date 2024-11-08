@@ -2,8 +2,8 @@
 
 # Interface
 
-![First Seen](<Screenshot 2024-11-01 094102.png>)
-![Example Room](<Screenshot 2024-11-01 094129.png>)
+![First Seen](<static/img/Screenshot 2024-11-01 094102.png>)
+![Example Room](<static/img/Screenshot 2024-11-01 094129.png>)
 
 ## Setup
 
